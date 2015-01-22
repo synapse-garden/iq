@@ -1,0 +1,9 @@
+language: go
+
+go: 1.4
+
+install: 
+  - go get -u -v gopkg.in/check.v1
+
+script:
+  - go test ./...
